@@ -23,4 +23,11 @@ Use the function ```averageEWlegs_updated.mat```. This code will average data fr
 
 Note: This function could use some updating to better support current and future outdoor flight testing. 
 
-## Step #3
+## Step #3: Compute Total Average
+Use the function ```getTotalAverage.mat``` to compute the overall average at every flight condition for thrust, RPM, power, etc. The function takes in the following parameters:
+* ```data```: Data to be averaged (Thrust, RPM, ...)
+* ```window```: Averaging window size (# of data points)
+* ```xMid```: Midpoint of averaging window.
+
+Note: This function could use some updating to better support current and future outdoor flight testing. 
+
